@@ -1,0 +1,1925 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TGPSC Notes - Comprehensive study material for Telangana State Public Service Commission exams including Group 1, 2, 3, 4 and Current Affairs">
+    <meta name="keywords" content="TGPSC, Telangana PSC, Group 1, Group 2, TSPSC, Government Exams, Study Material">
+    <title>TGPSC Notes - Comprehensive Study Material for Telangana PSC Exams</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;600;700&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-blue: #0d47a1;
+            --secondary-blue: #1976d2;
+            --accent-orange: #ff6f00;
+            --light-blue: #e3f2fd;
+            --dark-navy: #01579b;
+            --text-dark: #263238;
+            --text-light: #546e7a;
+            --white: #ffffff;
+            --light-gray: #f5f5f5;
+            --border-color: #cfd8dc;
+            --success-green: #2e7d32;
+            --shadow-sm: 0 2px 8px rgba(13, 71, 161, 0.08);
+            --shadow-md: 0 4px 20px rgba(13, 71, 161, 0.12);
+            --shadow-lg: 0 8px 32px rgba(13, 71, 161, 0.16);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Work Sans', sans-serif;
+            color: var(--text-dark);
+            background: linear-gradient(135deg, #f5f7fa 0%, #e3f2fd 100%);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        h1, h2, h3, h4, h5, h6 {
+            font-family: 'Crimson Pro', serif;
+            font-weight: 700;
+        }
+
+        /* Header Styles */
+        .header-top {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-navy) 100%);
+            color: var(--white);
+            padding: 0.8rem 0;
+            box-shadow: var(--shadow-md);
+        }
+
+        .header-top-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .header-info {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .header-info-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            opacity: 0.95;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .social-link {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: var(--white);
+        }
+
+        .social-link:hover {
+            background: var(--accent-orange);
+            transform: translateY(-2px);
+        }
+
+        /* Main Header */
+        .main-header {
+            background: var(--white);
+            padding: 1.5rem 0;
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            animation: slideDown 0.6s ease;
+        }
+
+        @keyframes slideDown {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 2rem;
+        }
+
+        .logo-section {
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+        }
+
+        .logo {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-blue), var(--secondary-blue));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 2rem;
+            color: var(--white);
+            font-weight: bold;
+            box-shadow: var(--shadow-md);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .logo::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255,255,255,0.1), transparent);
+            transform: rotate(45deg);
+            animation: shine 3s infinite;
+        }
+
+        @keyframes shine {
+            0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+            100% { transform: translateX(100%) translateY(100%) rotate(45deg); }
+        }
+
+        .site-title h1 {
+            font-size: 2rem;
+            color: var(--primary-blue);
+            margin-bottom: 0.2rem;
+            letter-spacing: -0.5px;
+        }
+
+        .site-title p {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            font-weight: 500;
+        }
+
+        .search-box {
+            flex: 1;
+            max-width: 500px;
+            position: relative;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 0.9rem 3rem 0.9rem 1.2rem;
+            border: 2px solid var(--border-color);
+            border-radius: 50px;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+            background: var(--light-gray);
+        }
+
+        .search-input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .search-btn {
+            position: absolute;
+            right: 0.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: var(--accent-orange);
+            color: var(--white);
+            border: none;
+            padding: 0.6rem 1.2rem;
+            border-radius: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
+
+        .search-btn:hover {
+            background: #e65100;
+            transform: translateY(-50%) scale(1.05);
+        }
+
+        .header-actions {
+            display: flex;
+            gap: 1rem;
+        }
+
+        .btn-subscribe {
+            background: var(--success-green);
+            color: var(--white);
+            padding: 0.8rem 1.8rem;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            white-space: nowrap;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-subscribe:hover {
+            background: #1b5e20;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Navigation */
+        nav {
+            background: var(--white);
+            box-shadow: var(--shadow-sm);
+            position: sticky;
+            top: 110px;
+            z-index: 999;
+        }
+
+        .nav-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .main-nav {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            gap: 0.5rem;
+        }
+
+        .nav-item {
+            position: relative;
+        }
+
+        .nav-link {
+            display: block;
+            padding: 1.2rem 1.8rem;
+            color: var(--text-dark);
+            text-decoration: none;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            position: relative;
+            font-size: 0.95rem;
+            letter-spacing: 0.3px;
+        }
+
+        .nav-link::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            width: 0;
+            height: 3px;
+            background: var(--accent-orange);
+            transition: all 0.3s ease;
+            transform: translateX(-50%);
+        }
+
+        .nav-link:hover,
+        .nav-link.active {
+            color: var(--primary-blue);
+        }
+
+        .nav-link:hover::before,
+        .nav-link.active::before {
+            width: 80%;
+        }
+
+        .dropdown-content {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            background: var(--white);
+            min-width: 220px;
+            box-shadow: var(--shadow-lg);
+            border-radius: 8px;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(-10px);
+            transition: all 0.3s ease;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .nav-item:hover .dropdown-content {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-link {
+            display: block;
+            padding: 0.9rem 1.5rem;
+            color: var(--text-dark);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            border-left: 3px solid transparent;
+            font-weight: 500;
+        }
+
+        .dropdown-link:hover {
+            background: var(--light-blue);
+            border-left-color: var(--accent-orange);
+            padding-left: 1.8rem;
+        }
+
+        /* Mobile Menu Toggle */
+        .mobile-menu-toggle {
+            display: none;
+            background: var(--primary-blue);
+            color: var(--white);
+            border: none;
+            padding: 0.7rem 1.2rem;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            transition: all 0.3s ease;
+        }
+
+        .mobile-menu-toggle:hover {
+            background: var(--dark-navy);
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--dark-navy) 100%);
+            color: var(--white);
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg width="60" height="60" xmlns="http://www.w3.org/2000/svg"><circle cx="30" cy="30" r="1" fill="rgba(255,255,255,0.1)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            max-width: 900px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+            animation: fadeInUp 0.8s ease;
+        }
+
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .hero h2 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            opacity: 0.95;
+            margin-bottom: 2rem;
+            line-height: 1.8;
+        }
+
+        .hero-stats {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            margin-top: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-orange);
+            display: block;
+        }
+
+        .stat-label {
+            font-size: 0.9rem;
+            opacity: 0.9;
+            margin-top: 0.3rem;
+        }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            background: var(--white);
+            padding: 1rem 0;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .breadcrumb-container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+        }
+
+        .breadcrumb-list {
+            list-style: none;
+            display: flex;
+            gap: 0.5rem;
+            align-items: center;
+            font-size: 0.9rem;
+        }
+
+        .breadcrumb-item {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            color: var(--text-light);
+        }
+
+        .breadcrumb-item a {
+            color: var(--primary-blue);
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+
+        .breadcrumb-item a:hover {
+            color: var(--accent-orange);
+        }
+
+        .breadcrumb-item.active {
+            color: var(--text-dark);
+            font-weight: 600;
+        }
+
+        /* Main Content */
+        .main-content {
+            max-width: 1400px;
+            margin: 2rem auto;
+            padding: 0 2rem;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: 1fr 320px;
+            gap: 2rem;
+            margin-bottom: 3rem;
+        }
+
+        /* Section Styles */
+        .section {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 2rem;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 2rem;
+            animation: fadeIn 0.6s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .section-header {
+            border-left: 4px solid var(--accent-orange);
+            padding-left: 1.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            font-size: 1.8rem;
+            color: var(--primary-blue);
+            margin-bottom: 0.5rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 0.95rem;
+        }
+
+        /* Content Cards */
+        .content-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .content-card {
+            background: var(--white);
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: linear-gradient(90deg, var(--primary-blue), var(--accent-orange));
+            transform: scaleX(0);
+            transition: transform 0.3s ease;
+        }
+
+        .content-card:hover {
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .content-card:hover::before {
+            transform: scaleX(1);
+        }
+
+        .card-icon {
+            width: 50px;
+            height: 50px;
+            background: var(--light-blue);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--primary-blue);
+        }
+
+        .card-title {
+            font-size: 1.1rem;
+            color: var(--text-dark);
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+
+        .card-description {
+            font-size: 0.9rem;
+            color: var(--text-light);
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        .card-meta {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-size: 0.85rem;
+            color: var(--text-light);
+            padding-top: 1rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .card-tag {
+            background: var(--light-blue);
+            color: var(--primary-blue);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-weight: 600;
+        }
+
+        /* Accordion/Expandable Sections */
+        .accordion {
+            border: 2px solid var(--border-color);
+            border-radius: 12px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .accordion:hover {
+            border-color: var(--primary-blue);
+        }
+
+        .accordion-header {
+            background: linear-gradient(135deg, var(--light-blue) 0%, var(--white) 100%);
+            padding: 1.2rem 1.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: 600;
+            color: var(--text-dark);
+            transition: all 0.3s ease;
+        }
+
+        .accordion-header:hover {
+            background: var(--light-blue);
+        }
+
+        .accordion-icon {
+            font-size: 1.2rem;
+            color: var(--primary-blue);
+            transition: transform 0.3s ease;
+        }
+
+        .accordion.active .accordion-icon {
+            transform: rotate(180deg);
+        }
+
+        .accordion-content {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.4s ease;
+            background: var(--white);
+        }
+
+        .accordion.active .accordion-content {
+            max-height: 2000px;
+        }
+
+        .accordion-body {
+            padding: 1.5rem;
+            border-top: 1px solid var(--border-color);
+        }
+
+        .topic-list {
+            list-style: none;
+        }
+
+        .topic-item {
+            padding: 0.8rem;
+            margin-bottom: 0.5rem;
+            border-left: 3px solid transparent;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border-radius: 0 6px 6px 0;
+        }
+
+        .topic-item:hover {
+            background: var(--light-blue);
+            border-left-color: var(--accent-orange);
+            padding-left: 1.2rem;
+        }
+
+        .topic-item a {
+            color: var(--text-dark);
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .download-icon {
+            color: var(--primary-blue);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .topic-item:hover .download-icon {
+            opacity: 1;
+        }
+
+        /* Sidebar */
+        .sidebar {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+        }
+
+        .sidebar-widget {
+            background: var(--white);
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: var(--shadow-md);
+        }
+
+        .widget-title {
+            font-size: 1.2rem;
+            color: var(--primary-blue);
+            margin-bottom: 1rem;
+            padding-bottom: 0.8rem;
+            border-bottom: 2px solid var(--light-blue);
+            font-weight: 600;
+        }
+
+        .quick-links {
+            list-style: none;
+        }
+
+        .quick-link-item {
+            margin-bottom: 0.8rem;
+        }
+
+        .quick-link-item a {
+            color: var(--text-dark);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.8rem;
+            padding: 0.6rem;
+            border-radius: 6px;
+            transition: all 0.3s ease;
+            font-size: 0.95rem;
+        }
+
+        .quick-link-item a:hover {
+            background: var(--light-blue);
+            color: var(--primary-blue);
+            padding-left: 1rem;
+        }
+
+        .quick-link-icon {
+            width: 8px;
+            height: 8px;
+            background: var(--accent-orange);
+            border-radius: 50%;
+        }
+
+        /* Updates Widget */
+        .update-item {
+            padding: 1rem;
+            border-left: 3px solid var(--accent-orange);
+            background: var(--light-gray);
+            border-radius: 0 8px 8px 0;
+            margin-bottom: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .update-item:hover {
+            background: var(--light-blue);
+            transform: translateX(5px);
+        }
+
+        .update-date {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin-bottom: 0.3rem;
+        }
+
+        .update-title {
+            font-weight: 600;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+        }
+
+        /* Newsletter */
+        .newsletter-form {
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .newsletter-input {
+            padding: 0.9rem;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 0.95rem;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-input:focus {
+            outline: none;
+            border-color: var(--primary-blue);
+        }
+
+        .newsletter-btn {
+            background: var(--accent-orange);
+            color: var(--white);
+            border: none;
+            padding: 0.9rem;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .newsletter-btn:hover {
+            background: #e65100;
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        /* Footer */
+        footer {
+            background: linear-gradient(135deg, var(--text-dark) 0%, #1a1a1a 100%);
+            color: var(--white);
+            padding: 3rem 0 1rem;
+            margin-top: 4rem;
+        }
+
+        .footer-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 0 2rem;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: var(--accent-orange);
+            font-size: 1.2rem;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 0.6rem;
+        }
+
+        .footer-links a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+            transition: all 0.3s ease;
+            display: inline-block;
+        }
+
+        .footer-links a:hover {
+            color: var(--accent-orange);
+            padding-left: 0.5rem;
+        }
+
+        .footer-bottom {
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 1.5rem 2rem;
+            text-align: center;
+            max-width: 1400px;
+            margin: 0 auto;
+            color: rgba(255, 255, 255, 0.7);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 1024px) {
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sidebar {
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            }
+        }
+
+        @media (max-width: 768px) {
+            .header-top-content {
+                justify-content: center;
+            }
+
+            .header-info {
+                display: none;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .search-box {
+                max-width: 100%;
+            }
+
+            .mobile-menu-toggle {
+                display: block;
+            }
+
+            nav {
+                position: static;
+            }
+
+            .main-nav {
+                flex-direction: column;
+                display: none;
+                gap: 0;
+            }
+
+            .main-nav.active {
+                display: flex;
+            }
+
+            .nav-link {
+                border-bottom: 1px solid var(--border-color);
+            }
+
+            .dropdown-content {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                border-radius: 0;
+                display: none;
+                margin-top: 0;
+            }
+
+            .nav-item.active .dropdown-content {
+                display: block;
+            }
+
+            .hero h2 {
+                font-size: 2rem;
+            }
+
+            .hero p {
+                font-size: 1rem;
+            }
+
+            .hero-stats {
+                gap: 1.5rem;
+            }
+
+            .content-cards {
+                grid-template-columns: 1fr;
+            }
+
+            .sidebar {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .site-title h1 {
+                font-size: 1.5rem;
+            }
+
+            .logo {
+                width: 55px;
+                height: 55px;
+                font-size: 1.5rem;
+            }
+
+            .section {
+                padding: 1.5rem;
+            }
+
+            .section-title {
+                font-size: 1.4rem;
+            }
+        }
+
+        /* Utility Classes */
+        .btn-primary {
+            background: var(--primary-blue);
+            color: var(--white);
+            padding: 0.8rem 1.5rem;
+            border: none;
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+
+        .btn-primary:hover {
+            background: var(--dark-navy);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .btn-secondary {
+            background: transparent;
+            color: var(--primary-blue);
+            padding: 0.8rem 1.5rem;
+            border: 2px solid var(--primary-blue);
+            border-radius: 8px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            text-decoration: none;
+        }
+
+        .btn-secondary:hover {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .badge-new {
+            background: var(--success-green);
+            color: var(--white);
+        }
+
+        .badge-updated {
+            background: var(--accent-orange);
+            color: var(--white);
+        }
+
+        .badge-prelims {
+            background: var(--primary-blue);
+            color: var(--white);
+        }
+
+        .badge-mains {
+            background: var(--secondary-blue);
+            color: var(--white);
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Top Bar -->
+    <div class="header-top">
+        <div class="header-top-content">
+            <div class="header-info">
+                <div class="header-info-item">
+                    <span>📧</span>
+                    <span>contact@tgpscnotes.com</span>
+                </div>
+                <div class="header-info-item">
+                    <span>📞</span>
+                    <span>+91 9876543210</span>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="#" class="social-link" title="Facebook">f</a>
+                <a href="#" class="social-link" title="Twitter">𝕏</a>
+                <a href="#" class="social-link" title="YouTube">▶</a>
+                <a href="#" class="social-link" title="Telegram">✈</a>
+                <a href="#" class="social-link" title="Instagram">📷</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <div class="logo-section">
+                <div class="logo">TG</div>
+                <div class="site-title">
+                    <h1>TGPSC Notes</h1>
+                    <p>Your Gateway to Success</p>
+                </div>
+            </div>
+
+            <div class="search-box">
+                <input type="text" class="search-input" placeholder="Search for topics, notes, papers...">
+                <button class="search-btn">Search</button>
+            </div>
+
+            <div class="header-actions">
+                <button class="btn-subscribe">📬 Subscribe</button>
+                <button class="mobile-menu-toggle" onclick="toggleMobileMenu()">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <ul class="main-nav" id="mainNav">
+                <li class="nav-item">
+                    <a href="#current-affairs" class="nav-link active">Current Affairs</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#group1" class="nav-link">Group 1</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-link">Scheme & Syllabus</a>
+                        <a href="#" class="dropdown-link">Prelims</a>
+                        <a href="#" class="dropdown-link">Mains</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#group2" class="nav-link">Group 2</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-link">Scheme & Syllabus</a>
+                        <a href="#" class="dropdown-link">Paper 1</a>
+                        <a href="#" class="dropdown-link">Paper 2</a>
+                        <a href="#" class="dropdown-link">Paper 3</a>
+                        <a href="#" class="dropdown-link">Paper 4</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#group3" class="nav-link">Group 3</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-link">Scheme & Syllabus</a>
+                        <a href="#" class="dropdown-link">Paper 1</a>
+                        <a href="#" class="dropdown-link">Paper 2</a>
+                        <a href="#" class="dropdown-link">Paper 3</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#group4" class="nav-link">Group 4</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-link">Scheme & Syllabus</a>
+                        <a href="#" class="dropdown-link">Paper 1</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a href="#other-exams" class="nav-link">Other Exams</a>
+                    <div class="dropdown-content">
+                        <a href="#" class="dropdown-link">Scheme & Syllabus</a>
+                        <a href="#" class="dropdown-link">General Studies</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Excel in TGPSC Exams with Comprehensive Study Material</h2>
+            <p>Your one-stop destination for quality notes, previous papers, current affairs, and exam strategies to ace Telangana Public Service Commission examinations.</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">5000+</span>
+                    <span class="stat-label">Study Materials</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">10+</span>
+                    <span class="stat-label">Years Papers</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">Daily</span>
+                    <span class="stat-label">Current Affairs</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">24/7</span>
+                    <span class="stat-label">Access</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Breadcrumb -->
+    <div class="breadcrumb">
+        <div class="breadcrumb-container">
+            <ul class="breadcrumb-list">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item">›</li>
+                <li class="breadcrumb-item active">Current Affairs</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="content-grid">
+            <!-- Main Content Area -->
+            <div class="main-area">
+                <!-- Current Affairs Section -->
+                <section id="current-affairs" class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Current Affairs</h2>
+                        <p class="section-subtitle">Stay updated with daily, weekly, and monthly current affairs</p>
+                    </div>
+
+                    <div class="content-cards">
+                        <div class="content-card">
+                            <div class="card-icon">📰</div>
+                            <h3 class="card-title">Daily Current Affairs</h3>
+                            <p class="card-description">Get daily updates on national and international events relevant for TGPSC exams</p>
+                            <div class="card-meta">
+                                <span class="card-tag">Updated Today</span>
+                                <span>Feb 05, 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">📅</div>
+                            <h3 class="card-title">Weekly Current Affairs</h3>
+                            <p class="card-description">Comprehensive weekly compilations with analysis and important facts</p>
+                            <div class="card-meta">
+                                <span class="card-tag">This Week</span>
+                                <span>Week 6, 2026</span>
+                            </div>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">📊</div>
+                            <h3 class="card-title">Monthly Current Affairs</h3>
+                            <p class="card-description">Monthly magazines with in-depth coverage and practice questions</p>
+                            <div class="card-meta">
+                                <span class="card-tag">Jan 2026</span>
+                                <span>Latest Issue</span>
+                            </div>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">🏛️</div>
+                            <h3 class="card-title">Telangana Specific</h3>
+                            <p class="card-description">State-specific news, government schemes, and policy updates</p>
+                            <div class="card-meta">
+                                <span class="card-tag">Priority</span>
+                                <span>Updated Daily</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Group 1 Section -->
+                <section id="group1" class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Group 1 - Complete Study Material</h2>
+                        <p class="section-subtitle">Comprehensive notes and resources for TGPSC Group 1 examination</p>
+                    </div>
+
+                    <!-- Scheme & Syllabus Accordion -->
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📋 Scheme & Syllabus</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Complete Exam Pattern 2025</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Detailed Syllabus - Prelims</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Detailed Syllabus - Mains</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Exam Calendar & Important Dates</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Prelims Accordion -->
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📚 Prelims - General Studies</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian Polity & Governance <span class="badge badge-prelims">120 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian Economy <span class="badge badge-prelims">95 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian History & Culture <span class="badge badge-prelims">150 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Geography - India & World <span class="badge badge-prelims">110 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Science & Technology <span class="badge badge-prelims">88 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Environment & Ecology <span class="badge badge-prelims">65 PDFs</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Telangana History & Culture <span class="badge badge-new">NEW</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Previous Year Papers (2015-2025) <span class="badge badge-updated">UPDATED</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Practice Question Bank - 5000+ MCQs</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Mains Accordion -->
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>✍️ Mains - Paper-wise Study Material</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper 1 - General Essay <span class="badge badge-mains">45 Topics</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper 2 - History, Culture & Geography <span class="badge badge-mains">78 Notes</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper 3 - Polity, Economy & Planning <span class="badge badge-mains">92 Notes</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper 4 - Science, Tech & Environment <span class="badge badge-mains">65 Notes</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper 5 - Society & Ethics <span class="badge badge-mains">58 Notes</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Answer Writing Strategy Guide</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Model Answers - Previous Years <span class="badge badge-updated">UPDATED</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Practice Questions with Evaluation <span class="badge badge-new">NEW</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Group 2 Section -->
+                <section id="group2" class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Group 2 - Complete Study Material</h2>
+                        <p class="section-subtitle">Comprehensive resources for TGPSC Group 2 examination</p>
+                    </div>
+
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📋 Scheme & Syllabus</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Complete Exam Pattern 2025</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Paper-wise Detailed Syllabus</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Exam Calendar 2025-26</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📖 Paper 1 - General Studies & Mental Ability</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian Polity & Governance</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian Economy</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Geography - India & Telangana</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Mental Ability & Reasoning <span class="badge badge-new">NEW</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Previous Year Questions (2015-2025)</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📖 Paper 2 - Socio-Cultural History & Movement</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Indian History - Ancient to Modern</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Telangana History & Movement <span class="badge badge-updated">UPDATED</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Art & Culture of India & Telangana</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Previous Year Questions</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📖 Paper 3 - Science, Technology & Environment</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Physical & Biological Sciences</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Technology & Innovation</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Environment & Ecology</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Disaster Management</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="accordion" onclick="toggleAccordion(this)">
+                        <div class="accordion-header">
+                            <span>📖 Paper 4 - Telangana Movement & State Formation</span>
+                            <span class="accordion-icon">▼</span>
+                        </div>
+                        <div class="accordion-content">
+                            <div class="accordion-body">
+                                <ul class="topic-list">
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Telangana Movement - Complete History <span class="badge badge-new">NEW</span></span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>State Formation & Administrative Setup</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Telangana Government Schemes & Policies</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                    <li class="topic-item">
+                                        <a href="#">
+                                            <span>Telangana Economy & Development</span>
+                                            <span class="download-icon">⬇</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Quick Links Section -->
+                <section class="section">
+                    <div class="section-header">
+                        <h2 class="section-title">Exam Resources</h2>
+                        <p class="section-subtitle">Additional resources to boost your preparation</p>
+                    </div>
+
+                    <div class="content-cards">
+                        <div class="content-card">
+                            <div class="card-icon">📝</div>
+                            <h3 class="card-title">Mock Tests</h3>
+                            <p class="card-description">Take full-length mock tests with detailed solutions and performance analysis</p>
+                            <a href="#" class="btn-primary" style="margin-top: 1rem;">Start Test</a>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">📊</div>
+                            <h3 class="card-title">Previous Papers</h3>
+                            <p class="card-description">Download last 10 years question papers with answer keys</p>
+                            <a href="#" class="btn-primary" style="margin-top: 1rem;">Download</a>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">🎯</div>
+                            <h3 class="card-title">Study Plan</h3>
+                            <p class="card-description">Get personalized study plans based on your exam date and preparation level</p>
+                            <a href="#" class="btn-primary" style="margin-top: 1rem;">Create Plan</a>
+                        </div>
+
+                        <div class="content-card">
+                            <div class="card-icon">💡</div>
+                            <h3 class="card-title">Tips & Strategy</h3>
+                            <p class="card-description">Expert tips and strategies from successful candidates</p>
+                            <a href="#" class="btn-primary" style="margin-top: 1rem;">Read More</a>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+                <!-- Quick Links Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Quick Access</h3>
+                    <ul class="quick-links">
+                        <li class="quick-link-item">
+                            <a href="#current-affairs">
+                                <span class="quick-link-icon"></span>
+                                <span>Current Affairs</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#group1">
+                                <span class="quick-link-icon"></span>
+                                <span>Group 1 Material</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#group2">
+                                <span class="quick-link-icon"></span>
+                                <span>Group 2 Material</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#group3">
+                                <span class="quick-link-icon"></span>
+                                <span>Group 3 Material</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#group4">
+                                <span class="quick-link-icon"></span>
+                                <span>Group 4 Material</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#mock-tests">
+                                <span class="quick-link-icon"></span>
+                                <span>Mock Tests</span>
+                            </a>
+                        </li>
+                        <li class="quick-link-item">
+                            <a href="#previous-papers">
+                                <span class="quick-link-icon"></span>
+                                <span>Previous Papers</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Recent Updates Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Recent Updates</h3>
+                    <div class="update-item">
+                        <div class="update-date">Feb 05, 2026</div>
+                        <div class="update-title">New Current Affairs PDF Added</div>
+                    </div>
+                    <div class="update-item">
+                        <div class="update-date">Feb 04, 2026</div>
+                        <div class="update-title">Group 1 Mock Test Series Live</div>
+                    </div>
+                    <div class="update-item">
+                        <div class="update-date">Feb 03, 2026</div>
+                        <div class="update-title">Telangana Scheme Notes Updated</div>
+                    </div>
+                    <div class="update-item">
+                        <div class="update-date">Feb 01, 2026</div>
+                        <div class="update-title">January Monthly Magazine Released</div>
+                    </div>
+                </div>
+
+                <!-- Newsletter Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Subscribe to Newsletter</h3>
+                    <p style="font-size: 0.9rem; color: var(--text-light); margin-bottom: 1rem;">Get daily current affairs and study material directly in your inbox!</p>
+                    <form class="newsletter-form">
+                        <input type="email" class="newsletter-input" placeholder="Your email address" required>
+                        <button type="submit" class="newsletter-btn">Subscribe Now</button>
+                    </form>
+                </div>
+
+                <!-- Exam Calendar Widget -->
+                <div class="sidebar-widget">
+                    <h3 class="widget-title">Upcoming Exams</h3>
+                    <div class="update-item">
+                        <div class="update-date">Mar 15, 2026</div>
+                        <div class="update-title">Group 2 Prelims (Expected)</div>
+                    </div>
+                    <div class="update-item">
+                        <div class="update-date">Apr 20, 2026</div>
+                        <div class="update-title">Group 3 Notification</div>
+                    </div>
+                    <div class="update-item">
+                        <div class="update-date">May 10, 2026</div>
+                        <div class="update-title">Group 1 Prelims (Expected)</div>
+                    </div>
+                </div>
+            </aside>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About TGPSC Notes</h3>
+                <p style="color: rgba(255,255,255,0.8); line-height: 1.8; margin-bottom: 1rem;">
+                    TGPSC Notes is your comprehensive platform for Telangana Public Service Commission exam preparation. We provide quality study material, current affairs, and practice resources to help you succeed.
+                </p>
+                <div class="social-links">
+                    <a href="#" class="social-link">f</a>
+                    <a href="#" class="social-link">𝕏</a>
+                    <a href="#" class="social-link">▶</a>
+                    <a href="#" class="social-link">✈</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#current-affairs">Current Affairs</a></li>
+                    <li><a href="#group1">Group 1</a></li>
+                    <li><a href="#group2">Group 2</a></li>
+                    <li><a href="#group3">Group 3</a></li>
+                    <li><a href="#group4">Group 4</a></li>
+                    <li><a href="#other-exams">Other Exams</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="#">Study Material</a></li>
+                    <li><a href="#">Previous Papers</a></li>
+                    <li><a href="#">Mock Tests</a></li>
+                    <li><a href="#">Video Lectures</a></li>
+                    <li><a href="#">Study Plans</a></li>
+                    <li><a href="#">Success Stories</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul class="footer-links">
+                    <li>📧 contact@tgpscnotes.com</li>
+                    <li>📞 +91 9876543210</li>
+                    <li>📍 Hyderabad, Telangana</li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">FAQs</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 TGPSC Notes. All rights reserved. Made with ❤️ for TGPSC Aspirants</p>
+        </div>
+    </footer>
+
+    <script>
+        // Toggle Accordion
+        function toggleAccordion(element) {
+            element.classList.toggle('active');
+        }
+
+        // Toggle Mobile Menu
+        function toggleMobileMenu() {
+            const nav = document.getElementById('mainNav');
+            nav.classList.toggle('active');
+        }
+
+        // Handle dropdown on mobile
+        document.querySelectorAll('.nav-item').forEach(item => {
+            item.addEventListener('click', function(e) {
+                if (window.innerWidth <= 768) {
+                    if (this.querySelector('.dropdown-content')) {
+                        e.preventDefault();
+                        this.classList.toggle('active');
+                    }
+                }
+            });
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Active navigation highlighting
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('.nav-link');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= (sectionTop - 200)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === '#' + current) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Search functionality
+        document.querySelector('.search-btn').addEventListener('click', function() {
+            const searchTerm = document.querySelector('.search-input').value;
+            if (searchTerm) {
+                alert('Search functionality for: ' + searchTerm + '\n\nThis would search across all notes, papers, and resources.');
+            }
+        });
+
+        // Newsletter subscription
+        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = this.querySelector('.newsletter-input').value;
+            alert('Thank you for subscribing!\n\nYou will receive daily current affairs and study updates at: ' + email);
+            this.reset();
+        });
+
+        // Add animation on scroll
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.section, .content-card').forEach(el => {
+            el.style.opacity = '0';
+            el.style.transform = 'translateY(20px)';
+            el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+            observer.observe(el);
+        });
+    </script>
+</body>
+</html>
