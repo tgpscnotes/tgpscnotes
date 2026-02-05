@@ -1,16 +1,27 @@
-## Welcome to TGPSC Notes👋
+# TGPSC Notes Website
 
-<!--
-**tgpscnotes/tgpscnotes** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+A comprehensive study material portal for Telangana Public Service Commission exams.
 
-Here are some ideas to get you started:
+## Features
+- Complete syllabus for TGPSC Groups I, II, III, IV
+- Current affairs updates
+- Search functionality
+- Dark mode
+- Print/download notes
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## Tech Stack
+- HTML5
+- CSS3 (with CSS Variables)
+- Vanilla JavaScript (ES6+)
+- Fetch API for dynamic content loading
+
+## Live Website
+Visit: https://tgpscnotes.github.io/tgpscnotes.com/
+
+## How to Update Content
+1. Edit HTML files in the `includes/` folder
+2. Test locally
+3. Commit and push changes
+
+## License
+Educational use only. Not affiliated with TGPSC.

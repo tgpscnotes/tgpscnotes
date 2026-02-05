@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive TGPSC exam notes for Current Affairs, Group I, II, III, IV, and other Telangana government exams">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="keywords" content="TGPSC, Telangana PSC, Group 1, Group 2, Current Affairs, Study Notes">
+    <meta name="author" content="TGPSC Notes">
+    
+    <!-- Open Graph Tags (for social sharing) -->
+    <meta property="og:title" content="TGPSC Notes - Comprehensive Study Material">
+    <meta property="og:description" content="Free TGPSC exam notes for all groups">
+    <meta property="og:type" content="website">
+    
+    <title>TGPSC Notes | Comprehensive Study Material for Telangana Exams</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700;800&display=swap" 
+          rel="stylesheet">
+    
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="js/script.js" as="script">
+    
+    <!-- Tab Manager -->
+    <script src="js/tab-manager.js" defer></script>
+</head>
+<body>
+    <!-- Loading overlay (shown initially, hidden by JS) -->
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="spinner">
+            <i class="fas fa-book-open fa-spin"></i>
+            <p>Loading TGPSC Study Materials...</p>
+        </div>
+    </div>
+
+    <!-- Noscript warning -->
+    <noscript>
+        <div class="noscript-warning">
+            <h2>JavaScript Required</h2>
+            <p>TGPSC Notes requires JavaScript to function properly. Please enable JavaScript in your browser settings.</p>
+            <p>You can still access our notes by visiting our <a href="legacy.html">legacy HTML version</a>.</p>
+        </div>
+    </noscript>
+
+    <!-- Header Section (Will be loaded dynamically) -->
+    <div id="header-container">
+        <!-- Temporary static header for better initial load -->
+        <header class="temp-header">
+            <h1>TGPSC Notes</h1>
+            <p>Loading navigation...</p>
+        </header>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container">
+        <div id="tabs-container">
+            <div class="tabs-loading">
+                <div class="loading-placeholder"></div>
+                <div class="loading-placeholder"></div>
+                <div class="loading-placeholder"></div>
+            </div>
+        </div>
+        
+        <div id="content-container">
+            <div class="welcome-message">
+                <h2>Welcome to TGPSC Notes</h2>
+                <p>Comprehensive study materials for Telangana Public Service Commission exams</p>
+                <div class="welcome-features">
+                    <div class="feature">
+                        <i class="fas fa-book"></i>
+                        <span>Group I-IV Notes</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-newspaper"></i>
+                        <span>Current Affairs</span>
+                    </div>
+                    <div class="feature">
+                        <i class="fas fa-file-pdf"></i>
+                        <span>PDF Downloads</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section (Will be loaded dynamically) -->
+    <div id="footer-container">
+        <footer class="temp-footer">
+            <p>&copy; <span id="current-year">2024</span> TGPSC Notes. All rights reserved.</p>
+        </footer>
+    </div>
+
+    <!-- Main JavaScript -->
+    <script src="js/script.js" defer></script>
+    
+    <!-- Set current year -->
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
