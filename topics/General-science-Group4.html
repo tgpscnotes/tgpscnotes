@@ -1,53 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
 
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>General Science – Group IV</title>
+<link rel="stylesheet" href="../style.css">
 
 <style>
-body{
-    font-family: Arial, sans-serif;
-    margin: 40px;
-    background:#f7f9fc;
-    line-height:1.6;
+
+/* Only for this page */
+
+.ir-content ul {
+    padding-left: 55px;
 }
 
-h1{
-    color:#0c4b8a;
+.ir-content li {
+    margin-bottom: 8px;
+    line-height: 1.7;
 }
 
-h2{
+h2 {
     color:#c0392b;
     margin-top:30px;
 }
 
+/* Accordion */
+
+.accordion {
+  background:#0c4b8a;
+  color:white;
+  cursor:pointer;
+  padding:16px;
+  width:100%;
+  border:none;
+  text-align:left;
+  font-size:18px;
+  margin-top:10px;
+  border-radius:6px;
+}
+
+.accordion:hover {
+  background:#1a5fd1;
+}
+
+.panel {
+  background:white;
+  max-height:0;
+  overflow:hidden;
+  transition:max-height .35s ease;
+  box-shadow:0 2px 6px rgba(0,0,0,.1);
+}
+
+.panel-content {
+  padding:18px;
+  line-height:1.6;
+}
+
+.panel-content h3 {
+  margin-top:12px;
+  color:#c0392b;
+}
+
+ul {
+    margin:6px 0 12px 25px;
+}
+
+/* Topic Box */
+
 .topic-box{
-    background:white;
+    background:#f7f9fc;
     padding:20px;
     border-radius:8px;
     box-shadow:0 2px 6px rgba(0,0,0,0.08);
     margin-bottom:20px;
 }
 
-ul{
-    margin-left:25px;
-}
-
-table{
-    border-collapse:collapse;
-    width:100%;
-    margin-top:15px;
-}
-
-th,td{
-    border:1px solid #ccc;
-    padding:10px;
-    text-align:left;
-}
-
-th{
-    background:#eef3f8;
-}
+/* Back Button */
 
 .back-btn{
     display:inline-block;
@@ -58,15 +87,17 @@ th{
     padding:8px 14px;
     border-radius:6px;
 }
+
+.back-btn:hover{
+    background:#1a5fd1;
+}
+
 </style>
-<!-- STYLE -------------------------------------------------------------------------------------------->
-<meta charset="UTF-8">
-<title>General Science – Group 4</title>
-<link rel="stylesheet" href="../style.css">
 
 </head>
 
 <body>
+
 <header>
   <div class="container">
     <div class="logo">
@@ -79,12 +110,18 @@ th{
   </div>
 </header>
 
-<a href="index.html" class="back-btn">⬅ Back to Syllabus</a>
+<main class="container">
 
-<h1>General Science — TGPSC Group 4</h1>
-<!-- ===== PHYSICS ===== -->
+<a href="https://tgpscnotes.com/index.html#group4" class="back-btn">← Back to Group-IV</a>
 
-<h1 style="color:#0c4b8a;">PHYSICS</h1>
+<div class="content-card ir-content">
+
+<!-- SECTION 1 -->
+<button class="accordion"><strong>Physics</strong></button>
+<div class="panel">
+<div class="panel-content">
+
+
 <!-- ===== 1. MOTION ===== -->
 
 <h2 style="color:#c0392b;">1. MOTION</h2>
@@ -105,9 +142,6 @@ th{
   <li><strong>Second Law:</strong> Cricket — harder hit → faster ball</li>
   <li><strong>Third Law:</strong> Swimming (push water back, move forward)</li>
 </ul>
-
-
-
 <!-- ===== 2. HEAT ===== -->
 
 <h2 style="color:#c0392b;">2. HEAT</h2>
@@ -127,7 +161,6 @@ th{
   <li><strong>Thermal Expansion:</strong> Railway gaps, bridges with expansion joints</li>
   <li><strong>Latent Heat:</strong> Ice → water → steam</li>
 </ul>
-
 
 <!-- ================= LIGHT ================= -->
 
@@ -192,7 +225,6 @@ th{
 
 </tbody>
 </table>
-
 <!-- ===== 4. PRESSURE ===== -->
 
 <h2 style="color:#c0392b;">4. PRESSURE</h2>
@@ -295,9 +327,6 @@ th{
   <li>Increasing temperature</li>
   <li>Adding impurities</li>
 </ul>
-
-
-
 <!-- ===== 9. VISCOSITY ===== -->
 
 <h2 style="color:#c0392b;">9. VISCOSITY</h2>
@@ -397,9 +426,6 @@ th{
   <li>Mass on spring: T = 2π√(m/k)</li>
   <li>Swing, vibrating string</li>
 </ul>
-
-
-
 <!-- ===== 14. WAVE MOTION ===== -->
 
 <h2 style="color:#c0392b;">14. WAVE MOTION</h2>
@@ -528,7 +554,6 @@ th{
 
 </tbody>
 </table>
-
 
 <!-- ===== 18. INVENTIONS ===== -->
 
@@ -867,8 +892,6 @@ th{
 </tbody>
 </table>
 
-
-
 <!-- ===== 23. UNIT CONVERSIONS ===== -->
 
 <h2 style="color:#c0392b;">23. UNIT CONVERSIONS</h2>
@@ -906,10 +929,12 @@ th{
   <li>1 kWh = 3.6 × 10<sup>6</sup> J</li>
   <li>1 eV = 1.6 × 10<sup>−19</sup> J</li>
 </ul>
-<!-- ===== CHEMISTRY ===== -->
 
-<h1 style="color:#0c4b8a;">CHEMISTRY</h1>
+</div>
+</div>
 
+<button class="accordion"><strong>Chenistry</strong></button>
+<div class="panel"><div class="panel-content">
 <!-- ===== 1. SUBSTANCE & ITS NATURE ===== -->
 
 <h2 style="color:#c0392b;">1. SUBSTANCE & ITS NATURE</h2>
@@ -930,9 +955,6 @@ th{
   <li><strong>Gas:</strong> No fixed shape/volume (steam)</li>
   <li><strong>Plasma:</strong> Ionized gas (stars, lightning)</li>
 </ul>
-
-
-
 <!-- ===== 2. OXIDATION & REDUCTION ===== -->
 
 <h2 style="color:#c0392b;">2. OXIDATION & REDUCTION</h2>
@@ -954,9 +976,6 @@ th{
   <li>Batteries (redox reactions)</li>
   <li>Photosynthesis (CO₂ reduced to glucose)</li>
 </ul>
-
-
-
 <!-- ===== 3. ACIDS, BASES & SALTS ===== -->
 
 <h2 style="color:#c0392b;">3. ACIDS, BASES & SALTS</h2>
@@ -1096,7 +1115,6 @@ th{
 </ul>
 
 
-
 <!-- ===== 7. FUELS ===== -->
 
 <h2 style="color:#c0392b;">7. FUELS</h2>
@@ -1126,11 +1144,11 @@ th{
 
 <h3>Processes:</h3>
 
-<ol>
+<ul>
   <li><strong>Concentration:</strong> Remove impurities (gangue)</li>
   <li><strong>Reduction:</strong> Extract metal from ore</li>
   <li><strong>Refining:</strong> Purify metal</li>
-</ol>
+</ul>
 
 <h3>Extraction Methods:</h3>
 
@@ -1190,10 +1208,10 @@ th{
 
 <h3>Faraday’s Laws:</h3>
 
-<ol>
+<ul>
   <li>Mass deposited ∝ Charge passed</li>
   <li>For same charge, mass ∝ Equivalent weight</li>
-</ol>
+</ul>
 <!-- ===== 11. CARBON & ITS COMPOUNDS ===== -->
 
 <h2 style="color:#c0392b;">11. CARBON & ITS COMPOUNDS</h2>
@@ -1277,45 +1295,9 @@ th{
 
 </tbody>
 </table>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<title>Important Facts About Metals</title>
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background: #f4f4f4;
-    }
-    .container {
-        width: 800px;
-        margin: 30px auto;
-        background: #ffffff;
-        padding: 20px;
-        border: 1px solid #ccc;
-    }
-    h2 {
-        color: red;
-        margin-bottom: 15px;
-    }
-    table {
-        width: 100%;
-        border-collapse: collapse;
-    }
-    th, td {
-        border: 1px solid #333;
-        padding: 10px;
-        text-align: left;
-    }
-    th {
-        background-color: #e0e0e0;
-        font-weight: bold;
-    }
-    tr:nth-child(even) {
-        background-color: #f9f9f9;
-    }
-</style>
-</head>
+
+
+
 
 
 <h2 style="color:#c0392b;">13. IMPORTANT FACTS ABOUT METALS</h2>
@@ -1421,9 +1403,16 @@ th{
 <li><strong>Noble metals:</strong> Gold, Platinum (don't corrode)</li>
 
 </ul>
+
+</div>
+</div>
+<!-- Chemistry -->
+<button class="accordion"><strong>Biology</strong></button>
+<div class="panel"><div class="panel-content">
+
 <!-- ===== BIOLOGY ===== -->
 
-<h1 style="color:#0c4b8a;">BIOLOGY</h1>
+
 
 <!-- ===== 1. INTRODUCTION ===== -->
 
@@ -1450,13 +1439,13 @@ th{
 
 <h3>Five Kingdom System (Whittaker):</h3>
 
-<ol>
+<ul>
   <li><strong>Monera:</strong> Bacteria, cyanobacteria (prokaryotic)</li>
   <li><strong>Protista:</strong> Amoeba, Euglena (unicellular eukaryotic)</li>
   <li><strong>Fungi:</strong> Yeast, mushrooms (decomposers)</li>
   <li><strong>Plantae:</strong> Trees, flowers (autotrophs)</li>
   <li><strong>Animalia:</strong> Humans, animals (heterotrophs)</li>
-</ol>
+</ul>
 
 <p><strong>Binomial Nomenclature:</strong> Genus species (Homo sapiens)</p>
 <!-- ===== 3. NUTRIENTS ===== -->
@@ -1588,7 +1577,7 @@ th{
 
 <h3>Plant Kingdom Classification:</h3>
 
-<ol>
+<ul>
   <li><strong>Thallophyta:</strong> Algae (Spirogyra)</li>
   <li><strong>Bryophyta:</strong> Mosses (no vascular tissue)</li>
   <li><strong>Pteridophyta:</strong> Ferns (vascular, no seeds)</li>
@@ -1600,7 +1589,7 @@ th{
       <li><strong>Dicots:</strong> Two cotyledons (gram, pea)</li>
     </ul>
   </li>
-</ol>
+</ul>
 
 
 <h3>Plant Morphology:</h3>
@@ -1717,7 +1706,7 @@ C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
 
 <h4>Process:</h4>
 
-<ol>
+<ul>
   <li>
     <strong>Light Reaction:</strong>
     Thylakoids → ATP + NADPH + O<sub>2</sub>
@@ -1727,7 +1716,7 @@ C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub>
     <strong>Dark Reaction (Calvin Cycle):</strong>
     Stroma → Glucose
   </li>
-</ol>
+</ul>
 
 <h4>Factors Affecting:</h4>
 
@@ -1772,7 +1761,7 @@ Sun → Producers → Consumers → Decomposers
 
 <h4>Major Phyla:</h4>
 
-<ol>
+<ul>
   <li><strong>Porifera:</strong> Sponges (pores)</li>
   <li><strong>Coelenterata:</strong> Jellyfish, corals (stinging cells)</li>
   <li><strong>Platyhelminthes:</strong> Flatworms (tapeworms)</li>
@@ -1792,17 +1781,17 @@ Sun → Producers → Consumers → Decomposers
       <li><strong>Mammalia:</strong> Humans, animals (mammary glands)</li>
     </ul>
   </li>
-</ol>
+</ul>
 
 
 <h3>Animal Tissue:</h3>
 
-<ol>
+<ul>
   <li><strong>Epithelial:</strong> Covering/lining (squamous, cuboidal, columnar)</li>
   <li><strong>Connective:</strong> Support/binding (bone, blood, cartilage)</li>
   <li><strong>Muscular:</strong> Movement (skeletal, cardiac, smooth)</li>
   <li><strong>Nervous:</strong> Impulse transmission (neurons, neuroglia)</li>
-</ol>
+</ul>
 <!-- ===== 8. HUMAN BLOOD ===== -->
 
 <h2 style="color:#c0392b;">8. HUMAN BLOOD</h2>
@@ -1843,18 +1832,17 @@ Sun → Producers → Consumers → Decomposers
   <li>Regulation (pH, temperature)</li>
   <li>Protection (immunity, clotting)</li>
 </ul>
-
 <!-- ===== 9. CYTOLOGY (CELL BIOLOGY) ===== -->
 
 <h2 style="color:#c0392b;">9. CYTOLOGY (CELL BIOLOGY)</h2>
 
 <h3>Cell Theory:</h3>
 
-<ol>
+<ul>
   <li>All living things made of cells</li>
   <li>Cell is basic structural/functional unit</li>
   <li>Cells arise from pre-existing cells</li>
-</ol>
+</ul>
 
 
 <h3>Cell Types:</h3>
@@ -2022,13 +2010,13 @@ Sun → Producers → Consumers → Decomposers
 
 <h3>Mitosis Stages:</h3>
 
-<ol>
+<ul>
   <li><strong>Prophase:</strong> Chromosomes condense, nuclear envelope disappears</li>
   <li><strong>Metaphase:</strong> Chromosomes align at equator</li>
   <li><strong>Anaphase:</strong> Sister chromatids separate</li>
   <li><strong>Telophase:</strong> Nuclear envelopes reform</li>
   <li><strong>Cytokinesis:</strong> Cytoplasm divides</li>
-</ol>
+</ul>
 
 
 <h3>Meiosis Key Points:</h3>
@@ -2045,11 +2033,11 @@ Sun → Producers → Consumers → Decomposers
 
 <h3>Mendel's Laws:</h3>
 
-<ol>
+<ul>
   <li><strong>Law of Dominance:</strong> Dominant trait expressed</li>
   <li><strong>Law of Segregation:</strong> Alleles separate during gamete formation</li>
   <li><strong>Law of Independent Assortment:</strong> Genes for different traits assort independently</li>
-</ol>
+</ul>
 
 
 <h3>DNA Structure:</h3>
@@ -2282,13 +2270,13 @@ Sun → Producers → Consumers → Decomposers
 
 <h3>Synaptic Transmission:</h3>
 
-<ol>
+<ul>
   <li>Action potential reaches axon terminal</li>
   <li>Ca<sup>2+</sup> channels open</li>
   <li>Neurotransmitter release (acetylcholine, dopamine, serotonin)</li>
   <li>Binds to postsynaptic receptors</li>
   <li>Postsynaptic potential generated</li>
-</ol>
+</ul>
 
 
 <h3>Reflex Action:</h3>
@@ -2619,14 +2607,14 @@ Sun → Producers → Consumers → Decomposers
 
 <h4>Steps:</h4>
 
-<ol>
+<ul>
   <li>Isolation of DNA</li>
   <li>Cutting with restriction enzymes (EcoRI, HindIII)</li>
   <li>Ligation with DNA ligase</li>
   <li>Insertion into vector (plasmid, bacteriophage)</li>
   <li>Transformation into host (bacteria, yeast)</li>
   <li>Selection of recombinants</li>
-</ol>
+</ul>
 
 <h4>Applications:</h4>
 
@@ -3026,6 +3014,27 @@ Species with disproportionate effect on ecosystem
   <li>Artificial genomes</li>
   <li>Biofuels, biosensors</li>
 </ul>
+
+
+</div>
+</main>
+
+<!-- Accordion Script -->
+
+<script>
+document.querySelectorAll(".accordion").forEach(btn => {
+  btn.addEventListener("click", function () {
+    this.classList.toggle("active");
+    const panel = this.nextElementSibling;
+
+    if (panel.style.maxHeight) {
+      panel.style.maxHeight = null;
+    } else {
+      panel.style.maxHeight = panel.scrollHeight + "px";
+    }
+  });
+});
+</script>
 
 </body>
 </html>
