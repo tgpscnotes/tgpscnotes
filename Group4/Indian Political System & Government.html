@@ -27,39 +27,19 @@ h2 {
 
 
 
-/* Better accordion link styling */
-.accordion a,
-.accordion a:link,
-.accordion a:visited,
-.accordion a:hover,
-.accordion a:active {
-    color:#ffffff;
-    text-decoration:none;
-    font-weight:600;
-    display:block;
-    width:100%;
-}
-
 /* Accordion */
 
 .accordion {
-  display:block;
-  background: linear-gradient(135deg,#0c4b8a,#1a5fd1);
-  color:#ffffff;
-  padding:18px 20px;
-  margin-top:12px;
-  border-radius:8px;
-  text-decoration:none;
+  background:#0c4b8a;
+  color:white;
+  cursor:pointer;
+  padding:16px;
+  width:100%;
+  border:none;
+  text-align:left;
   font-size:18px;
-  font-weight:600;
-  transition:0.25s ease;
-  box-shadow:0 3px 8px rgba(0,0,0,0.08);
-}
-
-.accordion:hover {
-  background: linear-gradient(135deg,#1a5fd1,#2e86ff);
-  transform:translateY(-1px);
-  box-shadow:0 6px 14px rgba(0,0,0,0.12);
+  margin-top:10px;
+  border-radius:6px;
 }
 
 .accordion:hover {
@@ -113,7 +93,18 @@ ul {
 .back-btn:hover{
     background:#1a5fd1;
 }
-
+/* Fix accordion link colors */
+.accordion a,
+.accordion a:link,
+.accordion a:visited,
+.accordion a:hover,
+.accordion a:active {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+    display: block;
+    width: 100%;
+}
 </style>
 
 </head>
